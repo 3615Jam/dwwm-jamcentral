@@ -1,109 +1,151 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jam Central | Bienvenue</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jam Central | Bienvenue</title>
+        <link rel="icon" type="ico" href="img/3615jam-128.png" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-<body class="container">
+    <body class="container">
+        <header>
+            <div class="jumbotron">
+                <div class="d-flex">
+                    <img class="mr-4" src="img/3615jam-128.gif" />
+                    <div>
+                        <h1 class="display-4">Jam Central</h1>
+                        <p class="lead">
+                            Bienvenue sur la page de centralisation de mes projets.
+                        </p>
+                    </div>
+                </div>
 
-    <header>
-        <div class="jumbotron">
-            <h1 class="display-4">Jam Central</h1>
-            <p class="lead">Bienvenue sur la page de centralisation de mes projets.</p>
-            <hr class="my-4">
-            <p>Vous y trouverez des liens vers GitHub, vers mes projets réalisés durant ma formation DWWM, ainsi que vers mes projets persos.</p>
-        </div>
-    </header>
+                <hr class="my-4" />
+                <p>
+                    Vous y trouverez des liens vers GitHub, vers mes projets réalisés
+                    durant ma formation DWWM, ainsi que vers mes projets persos.
+                </p>
+            </div>
+        </header>
 
-    <h2>GitHub</h2>
+        <h2>GitHub</h2>
 
-    <section class="mb-5">
-        
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="img/ghll.jpg" alt="logo github" width="180px" class="rounded-circle m-2">
+        <section id="github" class="mb-5">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card mb-3" style="max-width: 540px">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="img/ghll.jpg" alt="logo github" width="180px" class="rounded-circle m-2" />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">GitHub de Lesly</h5>
+                                    <p class="card-text">
+                                        Lesly est notre formateur "principal". Le lien redirige vers
+                                        le repo "colombes".
+                                    </p>
+                                    <a href="https://github.com/lesly-lodin/greta92-dwwm-col-2021" target="_blank"
+                                        class="btn btn-primary">GH Lesly</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">GitHub de Lesly</h5>
-                                <p class="card-text">Lesly est notre formateur "principal". Le lien redirige vers le repo "colombes".</p>
-                                <a href="https://github.com/lesly-lodin/greta92-dwwm-col-2021" target="_blank" class="btn btn-primary">GH Lesly</a>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card mb-3" style="max-width: 540px">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="img/ghjm.jpg" alt="logo github" width="180px" class="rounded-circle m-2" />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mon GitHub</h5>
+                                    <p class="card-text">
+                                        Lien vers mon GitHub, contenant le code de tous mes cours et
+                                        projets.
+                                    </p>
+                                    <a href="https://github.com/3615Jam/dwwm-cours" target="_blank"
+                                        class="btn btn-primary">GH Jean-Marc</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="col-sm-6">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="img/ghjm.jpg" alt="logo github" width="180px" class="rounded-circle m-2">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Mon GitHub</h5>
-                                <p class="card-text">Lien vers mon GitHub, contenant le code de tous mes cours et projets.</p>
-                                <a href="https://github.com/3615Jam/dwwm-cours" target="_blank" class="btn btn-primary">GH Jean-Marc</a>
-                            </div>
-                        </div>
-                    </div>
+        <h2>Projets</h2>
+
+        <section id="projects" class="mb-5 d-flex flex-wrap justify-content-between">
+            <div class="card" style="width: 15rem">
+                <img src="img/samproj-256.png" class="card-img-top" alt="logo projet" />
+                <div class="card-body text-center">
+                    <h5 class="card-title">Sam Project</h5>
+                    <p class="card-text"><strong>[ HTML / CSS / JS ]</strong></p>
+                    <p class="card-text">Projet "exercice" à l'initiative de Samir (un des membres de la formation) pour
+                        s'entrainer durant les vacances de Nöel.</p>
+                    <a class="btn btn-primary" href="https://3615jam.github.io/dwwm-samproject/" target="_blank">Sam
+                        Project</a>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <h2>Projets</h2>
-
-    <section class="mb-5 d-flex flex-wrap justify-content-between">
-        
-        <div class="card" style="width: 15rem;">
-            <img src="img/samproj.png" class="card-img-top" alt="logo projet">
-            <div class="card-body text-center">
-                <h5 class="card-title">Sam Project</h5>
-                <p class="card-text">Projet HTML / CSS / JS, à l'initiative de Samir (un des membres de la formation) pour s'entrainer durant les vacances de Nöel.</p>
-                <a class="btn btn-primary" href="https://3615jam.github.io/dwwm-samproject/" target="_blank">Sam Project</a>
+            <div class="card" style="width: 15rem">
+                <img src="img/jamproject-256.png" class="card-img-top" alt="logo projet" />
+                <div class="card-body text-center">
+                    <h5 class="card-title">Jam Project</h5>
+                    <p class="card-text"><strong>[ HTML / CSS / JS / PHP / MySQL ]</strong></p>
+                    <p class="card-text">Projet professionnel présenté à l'évaluation DWWM</p>
+                    <a class="btn btn-primary" href="https://3615jam.github.io/dwwm-jamproject/" target="_blank">Jam
+                        Project</a>
+                </div>
             </div>
-        </div>
 
-        <div class="card" style="width: 15rem;">
-            <img src="img/" class="card-img-top" alt="logo projet">
-            <div class="card-body text-center">
-                <h5 class="card-title">Projet 2</h5>
-                <p class="card-text">Projet 2</p>
-                <a class="btn btn-primary" href="" target="_blank">Projet 2</a>
+            <div class="card" style="width: 15rem">
+                <img src="img/" class="card-img-top" alt="logo projet" />
+                <div class="card-body text-center">
+                    <h5 class="card-title">Projet 3</h5>
+                    <p class="card-text">Projet 3</p>
+                    <a class="btn btn-primary" href="" target="_blank">Projet 3</a>
+                </div>
             </div>
-        </div>
 
-        <div class="card" style="width: 15rem;">
-            <img src="img/" class="card-img-top" alt="logo projet">
-            <div class="card-body text-center">
-                <h5 class="card-title">Projet 3</h5>
-                <p class="card-text">Projet 3</p>
-                <a class="btn btn-primary" href="" target="_blank">Projet 3</a>
+            <div class="card" style="width: 15rem">
+                <img src="img/" class="card-img-top" alt="logo projet" />
+                <div class="card-body text-center">
+                    <h5 class="card-title">Projet 4</h5>
+                    <p class="card-text">Projet 4</p>
+                    <a class="btn btn-primary" href="" target="_blank">Projet 4</a>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <div class="card" style="width: 15rem;">
-            <img src="img/" class="card-img-top" alt="logo projet">
-            <div class="card-body text-center">
-                <h5 class="card-title">Projet 4</h5>
-                <p class="card-text">Projet 4</p>
-                <a class="btn btn-primary" href="" target="_blank">Projet 4</a>
+        <h2>Documents</h2>
+
+        <section id="docs" class="mb-5 d-flex flex-wrap justify-content-between">
+            <div class="card" style="width: 15rem">
+                <a href="doc/tuto-github.pdf" download><img src="img/tuto-gh.png"></a>
             </div>
-        </div>
-        
-    </section>
 
-</body>
+            <div class="card" style="width: 15rem">
+                <a href="#" download><img alt="logo download" src=""></a>
+            </div>
+
+            <div class="card" style="width: 15rem">
+                <a href="#" download><img alt="logo download" src=""></a>
+            </div>
+
+            <div class="card" style="width: 15rem">
+                <a href="#" download><img alt="logo download" src=""></a>
+            </div>
+        </section>
+
+    </body>
 
 </html>
