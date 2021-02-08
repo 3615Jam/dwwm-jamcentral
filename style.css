@@ -1,3 +1,8 @@
 img {
-    border-radius: 0%;
+  border-radius: 0%;
+}
+
+.no-resize {
+  min-height: 100px;
+  min-width: 100px;
 }
