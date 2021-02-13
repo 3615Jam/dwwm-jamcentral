@@ -15,135 +15,169 @@
     <body class="container">
         <header>
             <div class="jumbotron">
-                <div class="d-flex">
-                    <div><img class="mr-4 w-auto" src="img/3615jam-128.gif" /></div>
-                    <div>
-                        <h1 class="display-4">Jam Central</h1>
-                        <p class="lead">
-                            Bienvenue sur la page de centralisation de mes projets.
-                        </p>
+                <div>
+                    <div class="row">
+                        <div class="col-sm-3 col-lg-2 text-center text-md-left">
+                            <img class="" src="img/jam.png" width="150px" />
+                        </div>
+                        <div class="col-sm-9 col-lg-10 text-center text-md-left d-flex align-items-center">
+                            <div>
+                                <h1 class="display-4">Jam Central</h1>
+                                <p class="lead">
+                                    Bienvenue sur la page de centralisation de mes projets.
+                                </p>
+                            </div>
+                        </div>
                     </div>
+                    <hr class="my-4" />
+                    <p class="text-center text-md-left">
+                        Vous y trouverez des liens vers GitHub, vers mes projets réalisés durant ma formation DWWM,
+                        ainsi que vers mes projets persos.
+                    </p>
                 </div>
-
-                <hr class="my-4" />
-                <p>
-                    Vous y trouverez des liens vers GitHub, vers mes projets réalisés
-                    durant ma formation DWWM, ainsi que vers mes projets persos.
-                </p>
-            </div>
         </header>
-
         <h2>GitHub</h2>
-
         <section id="github" class="mb-5">
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="card mb-3" style="max-width: 540px">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="img/ghll.jpg" alt="logo github" width="180px" class="rounded-circle m-2" />
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">GitHub de Lesly</h5>
-                                    <p id="ghlesly" class="card-text">
-                                        /!\ il faut être connecté à GitHub ET avoir été invité pour pouvoir y accéder !
-                                    </p>
-                                    <a href="https://github.com/lesly-lodin/greta92-dwwm-col-2021"
-                                        class="btn btn-primary">GH Lesly</a>
+                    <a href="https://github.com/lesly-lodin/greta92-dwwm-col-2021" target="_blank">
+                        <div class="card text-center text-xl-left mb-3" style="max-width: 540px">
+                            <div class="row no-gutters">
+                                <div class="col-xl-4">
+                                    <img src="img/ghll.jpg" alt="logo github" width="150px" class="m-3" />
+                                </div>
+                                <div class="col-xl-8 d-flex align-items-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GitHub de Lesly</h5>
+                                        <p id="ghlesly" class="card-text">
+                                            /!\ il faut être connecté à GitHub ET avoir été invité pour pouvoir y
+                                            accéder !
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-
                 <div class="col-sm-6">
-                    <div class="card mb-3" style="max-width: 540px">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="img/ghjm.jpg" alt="logo github" width="180px" class="rounded-circle m-2" />
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Mon GitHub</h5>
-                                    <p class="card-text">
-                                        Cours, exercices, projets en lien avec la formation DWWM.
-                                    </p>
-                                    <a href="https://github.com/3615Jam/dwwm-cours" target="_blank"
-                                        class="btn btn-primary">GH Jean-Marc</a>
+                    <a href="https://github.com/3615Jam/dwwm-cours" target="_blank">
+                        <div class="card text-center text-xl-left mb-3" style="max-width: 540px">
+                            <div class="row no-gutters">
+                                <div class="col-xl-4">
+                                    <img src="img/3615jam-128.gif" alt="logo github" width="150px" class="m-3" />
+                                </div>
+                                <div class="col-xl-8 d-flex align-items-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mon GitHub</h5>
+                                        <p class="card-text">
+                                            Cours, exercices, projets en lien avec la formation DWWM.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <h2>Projets</h2>
+        <section id="projects" class="mb-5 d-flex flex-wrap justify-content-between">
+            <a class="mb-3" href="https://3615jam.github.io/dwwm-samproject/" target="_blank">
+                <div class="card h-100" style="width: 15rem">
+                    <img src="img/icon_samproject.png" class="card-img-top" alt="logo projet" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Sam Project</h5>
+                        <p class="card-text">
+                            <span class="badge badge-pill badge-primary">HTML</span>
+                            <span class="badge badge-pill badge-success">CSS</span>
+                            <span class="badge badge-pill badge-warning">JS</span>
+                        </p>
+                        <p class="card-text">Projet "exercice" à l'initiative de Samir (un des membres de la formation)
+                            pour
+                            s'entrainer durant les vacances de Nöel.</p>
                     </div>
                 </div>
-            </div>
+            </a>
+            <a class="mb-3" href="https://3615jam.github.io/dwwm-jamproject/" target="_blank">
+                <div class="card h-100" style="width: 15rem">
+                    <img src="img/icon_jamproject.png" class="card-img-top" alt="logo projet" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Jam Project</h5>
+                        <p class="card-text">
+                            <span class="badge badge-pill badge-primary">HTML</span>
+                            <span class="badge badge-pill badge-success">CSS</span>
+                            <span class="badge badge-pill badge-warning">JS</span>
+                            <span class="badge badge-pill badge-secondary">PHP</span>
+                            <span class="badge badge-pill badge-info">MySQL</span>
+                        </p>
+                        <p class="card-text">Projet professionnel présenté à l'évaluation DWWM</p>
+                    </div>
+                </div>
+            </a>
+            <a class="mb-3" href="#">
+                <div class="card h-100" style="width: 15rem">
+                    <img src="img/icon_empty.png" class="card-img-top" alt="logo projet" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Projet #</h5>
+                        <p class="card-text">Projet #</p>
+                    </div>
+                </div>
+            </a>
+            <a class="mb-3" href="#">
+                <div class="card h-100" style="width: 15rem">
+                    <img src="img/icon_empty.png" class="card-img-top" alt="logo projet" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Projet #</h5>
+                        <p class="card-text">Projet #</p>
+                    </div>
+                </div>
+            </a>
         </section>
-
-        <h2>Projets</h2>
-
-        <section id="projects" class="mb-5 d-flex flex-wrap justify-content-between">
-            <div class="card mb-3" style="width: 15rem">
-                <img src="img/samproj-256.png" class="card-img-top" alt="logo projet" />
-                <div class="card-body text-center">
-                    <h5 class="card-title">Sam Project</h5>
-                    <p class="card-text"><strong>[ HTML / CSS / JS ]</strong></p>
-                    <p class="card-text">Projet "exercice" à l'initiative de Samir (un des membres de la formation) pour
-                        s'entrainer durant les vacances de Nöel.</p>
-                    <a class="btn btn-primary" href="https://3615jam.github.io/dwwm-samproject/" target="_blank">Sam
-                        Project</a>
-                </div>
-            </div>
-
-            <div class="card mb-3" style="width: 15rem">
-                <img src="img/jamproject-256.png" class="card-img-top" alt="logo projet" />
-                <div class="card-body text-center">
-                    <h5 class="card-title">Jam Project</h5>
-                    <p class="card-text"><strong>[ HTML / CSS / JS / PHP / MySQL ]</strong></p>
-                    <p class="card-text">Projet professionnel présenté à l'évaluation DWWM</p>
-                    <a class="btn btn-primary" href="https://3615jam.github.io/dwwm-jamproject/" target="_blank">Jam
-                        Project</a>
-                </div>
-            </div>
-
-            <div class="card mb-3" style="width: 15rem">
-                <img src="img/" class="card-img-top" alt="logo projet" />
-                <div class="card-body text-center">
-                    <h5 class="card-title">Projet 3</h5>
-                    <p class="card-text">Projet 3</p>
-                    <a class="btn btn-primary" href="" target="_blank">Projet 3</a>
-                </div>
-            </div>
-
-            <div class="card mb-3" style="width: 15rem">
-                <img src="img/" class="card-img-top" alt="logo projet" />
-                <div class="card-body text-center">
-                    <h5 class="card-title">Projet 4</h5>
-                    <p class="card-text">Projet 4</p>
-                    <a class="btn btn-primary" href="" target="_blank">Projet 4</a>
-                </div>
-            </div>
-        </section>
-
         <h2>Documents</h2>
-
         <section id="docs" class="mb-5 d-flex flex-wrap justify-content-between">
-            <div class="card mb-3" style="width: 15rem">
-                <a href="doc/tuto-github.pdf" download><img class="card-img-top" src="img/tuto-gh.png"></a>
-            </div>
+            <a class="mb-3" href="doc/Dossier_professionnel.zip" download>
+                <div class="card h-100" style="width: 15rem">
+                    <img class="card-img-top" src="img/icon_dp.png">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dossier Pro</h5>
+                        <p class="badge badge-pill badge-secondary">.zip</p>
+                        <p class="card-text">Tous les documents nécessaires pour remplir le dossier pro</p>
 
-            <div class="card mb-3" style="width: 15rem">
-                <a href="#" download><img class="card-img-top" alt="logo download" src=""></a>
-            </div>
+                    </div>
+                </div>
+            </a>
+            <a class="mb-3" href="doc/tuto-github.pdf" download>
+                <div class="card h-100" style="width: 15rem">
+                    <img class="card-img-top" src="img/icon_gh.png">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tuto GitHub</h5>
+                        <p class="badge badge-pill badge-secondary">.pdf</p>
+                        <p class="card-text">Tuto pour publier son site web hébergé sur GitHub</p>
 
-            <div class="card mb-3" style="width: 15rem">
-                <a href="#" download><img class="card-img-top" alt="logo download" src=""></a>
-            </div>
-
-            <div class="card mb-3" style="width: 15rem">
-                <a href="#" download><img class="card-img-top" alt="logo download" src=""></a>
-            </div>
+                    </div>
+                </div>
+            </a>
+            <a class="mb-3" href="#">
+                <div class="card h-100" style="width: 15rem">
+                    <img class="card-img-top" src="img/icon_empty.png">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Doc #</h5>
+                        <p class="badge badge-pill badge-secondary">.xxx</p>
+                        <p class="card-text">Doc #</p>
+                    </div>
+                </div>
+            </a>
+            <a class="mb-3" href="#">
+                <div class="card h-100" style="width: 15rem">
+                    <img class="card-img-top" src="img/icon_empty.png">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Doc #</h5>
+                        <p class="badge badge-pill badge-secondary">.xxx</p>
+                        <p class="card-text">Doc #</p>
+                    </div>
+                </div>
+            </a>
         </section>
-
     </body>
 
 </html>

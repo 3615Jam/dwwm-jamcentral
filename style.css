@@ -1,7 +1,22 @@
-img {
-  border-radius: 0%;
+#github img {
+  border-radius: 10%;
 }
 
 #ghlesly {
   color: red;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: translateY(-3px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11);
 }
